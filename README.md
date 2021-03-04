@@ -6,7 +6,7 @@
   <img src="Images/revenue-per-lead.png" width="400">
 </p>
 
-### Created a Python script for analyzing the financial records of a company from a CSV file containing `Date` and `Profit/Losses` columns.
+Created a Python script for analyzing the financial records of a company from a CSV file containing `Date` and `Profit/Losses` columns.
 
 * The Python script calculated each of the following:
 
@@ -37,7 +37,7 @@
   <img src="Images/Vote_counting.png" width="400"
 </p>
 
-### Helped a small, rural town modernize its vote-counting process using a CSV set of poll data composed of `Voter ID`, `County`, and `Candidate` columns.
+Helped a small, rural town modernize its vote-counting process using a CSV set of poll data composed of `Voter ID`, `County`, and `Candidate` columns.
 
 * Created a Python script that analyzes the votes and calculates each of the following:
 
