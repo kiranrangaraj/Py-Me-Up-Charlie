@@ -1,23 +1,14 @@
-# python_challenge
-Python Homework Assignment for Data Analytics Bootcamp - Trilogy Education, Vanderbilt University
+# Py Me Up, Charlie - Python Analysis of Financial Records and Vote Counting
 
-# Py Me Up, Charlie
+## PyBank ##
 
-## Background
+<p align="center">
+  <img src="Images/revenue-per-lead.png" width="400">
+</p>
 
-Well... you've made it!
+### Created a Python script for analyzing the financial records of a company from a CSV file containing `Date` and `Profit/Losses` columns.
 
-It's time to put away the Excel sheet and join the big leagues. Welcome to the world of programming with Python. In this homework assignment, you'll be using the concepts you've learned to complete the **two** Python Challenges, PyBank and PyPoll.
-
-Both of these challenges encompasses a real-world situation where your newfound Python scripting skills can come in handy. These challenges are far from easy so expect some hard work ahead!
-
-## PyBank
-
-![Revenue](Images/revenue-per-lead.png)
-
-* In this challenge, you are tasked with creating a Python script for analyzing the financial records of your company. You will give a set of financial data called [budget_data.csv](PyBank/Resources/budget_data.csv). The dataset is composed of two columns: `Date` and `Profit/Losses`. (Thankfully, your company has rather lax standards for accounting so the records are simple.)
-
-* Your task is to create a Python script that analyzes the records to calculate each of the following:
+* The Python script calculated each of the following:
 
   * The total number of months included in the dataset
 
@@ -29,27 +20,26 @@ Both of these challenges encompasses a real-world situation where your newfound 
 
   * The greatest decrease in losses (date and amount) over the entire period
 
-* As an example, your analysis should look similar to the one below:
+* Formatted the output analysis to appear as:
 
   ```text
   Financial Analysis
-  ----------------------------
+  --------------------------------------------------
   Total Months: 86
-  Total: $38382578
+  Net Total Amount: $38382578
   Average  Change: $-2315.12
   Greatest Increase in Profits: Feb-2012 ($1926159)
   Greatest Decrease in Profits: Sep-2013 ($-2196167)
-  ```
 
-* In addition, your final script should both print the analysis to the terminal and export a text file with the results.
+## PyPoll ##
 
-## PyPoll
+<p align="center">
+  <img src="Images/Vote_counting.png" width="400"
+</p>
 
-![Vote Counting](Images/Vote_counting.png)
+### Helped a small, rural town modernize its vote-counting process using a CSV set of poll data composed of `Voter ID`, `County`, and `Candidate` columns.
 
-* In this challenge, you are tasked with helping a small, rural town modernize its vote counting process.
-
-* You will be give a set of poll data called [election_data.csv](PyPoll/Resources/election_data.csv). The dataset is composed of three columns: `Voter ID`, `County`, and `Candidate`. Your task is to create a Python script that analyzes the votes and calculates each of the following:
+* Created a Python script that analyzes the votes and calculates each of the following:
 
   * The total number of votes cast
 
@@ -61,7 +51,7 @@ Both of these challenges encompasses a real-world situation where your newfound 
 
   * The winner of the election based on popular vote.
 
-* As an example, your analysis should look similar to the one below:
+* Formatted the output analysis to appear as:
 
   ```text
   Election Results
@@ -76,5 +66,13 @@ Both of these challenges encompasses a real-world situation where your newfound 
   Winner: Khan
   -------------------------
   ```
+  
+---
+  
+## Technologies Used ##
+* Python
 
-* In addition, your final script should both print the analysis to the terminal and export a text file with the results.
+---
+
+## Author ##
+Kiran Rangaraj - LinkedIn: [@Kiran Rangaraj](https://www.linkedin.com/in/kiranrangaraj/)
